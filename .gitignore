@@ -1,4 +1,5 @@
 node_modules/
 journal-output/
+.freebuff/
 *.log
 .DS_Store
