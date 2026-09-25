@@ -65,8 +65,10 @@ On first run, QVAC downloads the classification and language models it
 needs — this can take a few minutes depending on your connection. After that, everything
 runs offline.
 Press CTRL+C to stop the program.
+
 ## Sample Photos
-https://github.com/spideyfromnp/pixeldiary/releases/tag/sample
+https://github.com/happyfor2029/pixeldiary/releases/tag/sample
+
 ## Notes
 
 - The classifier's labels (`food` / `report` / `other`) come from QVAC's bundled
