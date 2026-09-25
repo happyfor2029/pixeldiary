@@ -1,0 +1,7 @@
+{
+  "loggerLevel": "info",
+  "loggerConsoleOutput": true,
+  "httpDownloadConcurrency": 3,
+  "httpConnectionTimeoutMs": 20000,
+  "rpcInitTimeoutMs": 90000
+}

@@ -1,0 +1,32 @@
+{
+  "name": "pixel-diary",
+  "version": "1.0.0",
+  "description": "On-device daily photo journal generator, built on Tether's QVAC SDK. Classifies today's photos and writes a short journal entry, entirely on your machine.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "pixel-diary": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "web": "node server.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "local-ai",
+    "privacy",
+    "journal"
+  ],
+  "author": "Samir Aryal",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.17.0"
+  },
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0",
+    "express": "^5.2.1",
+    "jimp": "^1.6.1",
+    "multer": "^2.4.0"
+  }
+}
